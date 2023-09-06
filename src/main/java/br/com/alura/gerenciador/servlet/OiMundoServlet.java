@@ -18,7 +18,7 @@ public class OiMundoServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	@Override
-	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException {
+	protected void service (HttpServletRequest req, HttpServletResponse resp) throws IOException {
 	
 		PrintWriter out = resp.getWriter();
 		out.println("<html>");
